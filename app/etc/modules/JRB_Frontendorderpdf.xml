@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/*
+* category JRB
+* module JRB_Frontendorderpdf
+* 
+* author Jyotiranjan Biswal <biswal@jyotiranjan.in>
+*/
+-->
+<config>
+  <modules>
+    <JRB_Frontendorderpdf>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </JRB_Frontendorderpdf>
+  </modules>
+</config>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+/*
+* category JRB
+* module JRB_Frontendorderpdf
+* 
+* author Jyotiranjan Biswal <biswal@jyotiranjan.in>
+*/
+-->
+<config>
+  <modules>
+    <JRB_Frontendorderpdf>
+      <version>0.1.0</version>
+    </JRB_Frontendorderpdf>
+  </modules>
+  <frontend>
+    <routers>
+      <frontendorderpdf>
+        <use>standard</use>
+          <args>
+            <module>JRB_Frontendorderpdf</module>
+            <frontName>frontendorderpdf</frontName>
+          </args>
+      </frontendorderpdf>
+    </routers>
+  </frontend>
+  <global>
+    <helpers>
+      <frontendorderpdf>
+        <class>JRB_Frontendorderpdf_Helper</class>
+      </frontendorderpdf>
+    </helpers>
+  </global>
+</config> 
